@@ -22,13 +22,14 @@ for date in soup.select(tags+' > div'):
     days = temp.split(' - ')
     start = days[0].split(' ')
     end = days[1].split(' ')
-    lists.append({'start': start, 'end': end, 'name': None})
+    lists.append({'start': start, 'end': end, 'name': None, 'link': None})
 
 name_list = soup.select(tags+' > span')
+LinkList = soup.select(tags + ' > a')
+
+
 for i in range(0, len(lists)):
     lists[i]['name'] = name_list[i].text
+    temp = LinkList[i]['href']
+    lists[i]['link'] = hostname+temp
     print(lists[i])
-
-for dsd in soup.select(tags + ' > a'):
-    newLink = hostname+dsd['href']
-    print(newLink)
