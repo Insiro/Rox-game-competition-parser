@@ -1,5 +1,4 @@
 
-
 def Short(str1):
     strs = str1.lower()
     if(strs == 'jan'):

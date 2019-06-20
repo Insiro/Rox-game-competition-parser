@@ -1,14 +1,23 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-link = 'https://www.toornament.com/games/overwatch'
-tag = '#tournament-game-list-tab > section > div'
-req = requests.get(link)
-html = req.text
-soup = BeautifulSoup(html, 'html.parser')
-i = 0
-lists = list()
-with open('toornament.json', 'w') as OWoutput:
+import checkStatus as CS
+
+
+def parse():
+    link = 'https://www.toornament.com/games/overwatch'
+    if CS.check(link) != 0:
+        with open('toornament.json', 'w') as output:
+            output.write(json.dumps([None]))
+        return -1
+    tag = '#tournament-game-list-tab > section > div'
+    req = requests.get(link)
+    html = req.text
+    soup = BeautifulSoup(html, 'html.parser')
+    i = 0
+    lists = list()
+    OWoutput = open('toornament.json', 'w')
+
     div = soup.select(tag)
     for i in range(2, 5):
         j = 0
@@ -29,3 +38,5 @@ with open('toornament.json', 'w') as OWoutput:
                 lists.append({'start': start, 'end': end, 'name': name})
                 j = 0
     OWoutput.write(json.dumps(lists))
+    OWoutput.close()
+    return 0
