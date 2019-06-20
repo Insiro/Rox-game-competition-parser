@@ -15,6 +15,7 @@ def parse():
         output = open('pubg-esports.gamepedia.json', 'w')
         output.write(json.dumps([None]))
         output.close()
+
         return -1
 
     req = requests.get(link)
@@ -23,7 +24,6 @@ def parse():
     lists = list()
     tags = '#mw-content-text > div > div > table > tbody > tr > td > div:nth-child(2)'
 
-    # test
     print('data')
     for date in soup.select(tags+' > div'):
         temp = date.text
@@ -32,7 +32,8 @@ def parse():
         days = temp.split(' - ')
         start = days[0].split(' ')
         end = days[1].split(' ')
-        lists.append({'start': start, 'end': end, 'name': None, 'link': None})
+        lists.append({'start': year+con.Short(start[0])+"%02d" % int(start[1]), 'end': year+con.Short(
+            end[0])+"%02d" % int(end[1]), 'name': None, 'link': None})
 
     name_list = soup.select(tags+' > span')
     LinkList = soup.select(tags + ' > a')
@@ -48,3 +49,6 @@ def parse():
     output.close()
 
     return 0
+
+
+parse()
