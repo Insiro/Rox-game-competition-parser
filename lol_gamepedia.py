@@ -1,31 +1,24 @@
 import requests
 from bs4 import BeautifulSoup
-import json
 import Month_to_NUM as con
 import checkStatus as CS
 from datetime import datetime
 import lol_gamepedia_Extention as LE
+import jsonout as JO
 
 
 def parse():
     year = str(datetime.today().year)
     hostname = 'https://lol.gamepedia.com'
     link = 'https://lol.gamepedia.com/Leaguepedia:Tournaments'
-    status = CS.check(link)
-    if status != 0:
+    tags = '#mw-content-text > div > div > div > div > table > tbody > tr:nth-child(2) > td > div > div'
+    if CS.check(link) != 0:
+        JO.output('lol.gamepedia.json', [None])
         return -1
     req = requests.get(link)
     html = req.text
     soup = BeautifulSoup(html, 'html.parser')
-
     lists = list()
-    tags = '#mw-content-text > div > div > div > div > table > tbody > tr:nth-child(2) > td > div > div'
-
-    if CS.check(link) != 0:
-        output = open('lol.gamepedia.json', 'w')
-        output.write(json.dumps([None]))
-        output.close
-        return -1
     i = 0
     for div in soup.select(tags):
         for labels in div.select('div > table > tbody > tr'):
@@ -45,11 +38,5 @@ def parse():
                     lists.append(
                         {'start': Sdata, 'end': Edata, 'name': label.a.text, 'link': temLink, 'data': LE.parse(temLink)})
                 i = 0 if i == 2 else i+1
-
-    output = open('lol_gamepedia.json', 'w')
-    output.write(json.dumps(lists))
-    output.close
+    JO.output('lol_gamepedia.json', lists)
     return 0
-
-
-parse()

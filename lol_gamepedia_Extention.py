@@ -2,12 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import checkStatus as CS
 
-
-def parsetest():
-    testlink = 'https://lol.gamepedia.com/Liga_Master_Fibertel/2019_Season/Closing_Season'
-    return parse(testlink)
-
-
 def parse(link):
     status = CS.check(link)
     if status != 0:
@@ -53,6 +47,3 @@ def parse(link):
             temp = 'Nan'
 
     return data
-
-
-# print(parsetest())

@@ -4,8 +4,8 @@ import requests
 from datetime import datetime
 import Month_to_NUM as con
 import checkStatus as CS
-import json
 import pubg_esports_gamepedia_Exception as Ex
+import jsonout as JO
 
 
 def parse():
@@ -13,9 +13,7 @@ def parse():
     hostname = 'https://pubg-esports.gamepedia.com'
     link = 'https://pubg-esports.gamepedia.com/PUBG_Esports_Wiki:Tournaments/'+year
     if CS.check(link) != 0:
-        output = open('pubg-esports.gamepedia.json', 'w')
-        output.write(json.dumps([None]))
-        output.close()
+        JO.output('pubg_esports_gamepedia.json', [None])
         return -1
 
     req = requests.get(link)
@@ -38,11 +36,5 @@ def parse():
         temp = name_list[i].a['href']
         lists[i]['link'] = hostname+temp
         lists[i]['data'] = Ex.parse(hostname+temp)
-    output = open('pubg_esports_gamepedia.json', 'w')
-    output.write(json.dumps(lists))
-    output.close()
-
+    JO.output('pubg_esports_gamepedia.json', lists)
     return 0
-
-
-parse()

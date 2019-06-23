@@ -3,19 +3,13 @@ from bs4 import BeautifulSoup
 import Month_to_NUM as con
 import checkStatus as CS
 
-keyord = {'Organizer', 'Number of Teams', 'Links', 'Region',
-          'Type', 'Tier', 'Stream(s)'}
-tag = '#infoboxTournament > tbody > tr > td'
-
-
-def parsetest():
-    print(parse('https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Finals'))
-
-
 def parse(link):
     status = CS.check(link)
     if status != 0:
         return None
+    keyord = {'Organizer', 'Number of Teams', 'Links', 'Region',
+          'Type', 'Tier', 'Stream(s)'}
+    tag = '#infoboxTournament > tbody > tr > td'
     req = requests.get(link)
     html = req.text
     texts = None
@@ -48,6 +42,3 @@ def parse(link):
                     '\xa0')[1] if temp == 'Region' else block.text
             temp = 'Nan'
     return data
-
-
-parsetest()

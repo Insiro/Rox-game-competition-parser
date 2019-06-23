@@ -67,10 +67,6 @@
     "end": "20190702",
     "name": "Torneo Comunidad Fox"
 }, {
-    "start": "20190419",
-    "end": "20190620",
-    "name": "Uniliga OW Sommer 19 1. Liga"
-}, {
     "start": "20190214",
     "end": "20190825",
     "name": "OW League Season 2"
@@ -79,29 +75,17 @@
     "end": "20230228",
     "name": "Classic Competetive"
 }, {
-    "start": "20190621",
-    "end": "20190623",
-    "name": "overwatch 1v1 random heroes"
-}, {
-    "start": "20190622",
-    "end": "20190630",
-    "name": "NA Tournament"
-}, {
-    "start": "20190622",
-    "end": "20190822",
-    "name": "Overwatch UK Silver-Plat"
-}, {
     "start": "20190705",
     "end": "20190707",
     "name": "Overwatch Xbox Tournament"
 }, {
-    "start": "20190705",
-    "end": null,
-    "name": "Sun Set Tournament"
-}, {
     "start": "20190706",
     "end": "20190707",
     "name": "Overwatch PS4 Open Division"
+}, {
+    "start": "20190710",
+    "end": null,
+    "name": "Sun Set Tournament"
 }, {
     "start": "20190713",
     "end": "20190714",
@@ -112,6 +96,14 @@
     "name": "Cold War Overwatch Tournament"
 }, {
     "start": "20190907",
+    "end": "20190908",
+    "name": "DHMTL19 - Overwatch"
+}, {
+    "start": "20190907",
     "end": "20191103",
     "name": "FRUITS BOX SERIES 1ST EDITION"
+}, {
+    "start": "20200204",
+    "end": "20200404",
+    "name": "SWLA HSEL Season 2 Overwatch"
 }]
