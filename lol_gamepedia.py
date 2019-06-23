@@ -3,9 +3,11 @@ from bs4 import BeautifulSoup
 import json
 import Month_to_NUM as con
 import checkStatus as CS
+from datetime import datetime
 
 
 def parse():
+    year = str(datetime.today().year)
     link = 'https://lol.gamepedia.com/Leaguepedia:Tournaments'
     req = requests.get(link)
     html = req.text
@@ -18,17 +20,16 @@ def parse():
         output.write(json.dumps([None]))
         output.close
         return -1
-
     i = 0
     for div in soup.select(tags):
         for label in div.select('td'):
             if i == 0:
                 date = label.text.split(" ")
-                Sdata = con.Short(date[0])+"."+date[1]
+                Sdata = year+con.Short(date[0])+"%02d" % int(date[1])
                 if(date[2] != '-' or date[3] == '??'):
                     Edata = None
                 else:
-                    Edata = con.Short(date[3]) + "."+date[4]
+                    Edata = year+con.Short(date[3]) + "%02d" % int(date[4])
             elif i == 1:
                 lists.append(
                     {'start': Sdata, 'end': Edata, 'name': label.text})
@@ -38,3 +39,6 @@ def parse():
     output.write(json.dumps(lists))
     output.close
     return 0
+
+
+parse()
