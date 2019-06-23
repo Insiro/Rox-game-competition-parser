@@ -4,10 +4,10 @@
     "name": "GLL Grand Slam 2019",
     "link": "https://pubg-esports.gamepedia.com/GLL_GRAND_SLAM:_PUBG_Classic",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "GLL",
             "link": "https://gll.gg/"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -27,10 +27,10 @@
     "name": "FACEIT Global Summit 2019",
     "link": "https://pubg-esports.gamepedia.com/FACEIT_Global_Summit_2019",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "FACEIT",
             "link": "https://www.faceit.com/"
-        },
+        }],
         "Number of Teams": null,
         "Links": {
             "name": "Website",
@@ -77,10 +77,13 @@
     "name": "PML 2019 Phase 1 Finals",
     "link": "https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Finals",
     "data": {
-        "Organizer": {
-            "name": "Bluehole4Gamers",
+        "Organizer": [{
+            "name": "Bluehole",
             "link": "https://www.bluehole.net"
-        },
+        }, {
+            "name": "4Gamers",
+            "link": "https://www.4gamers.com.tw/"
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -97,10 +100,10 @@
     "name": "NPL Phase 1 Relegation",
     "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/Phase_1_Relegation",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "OGN",
             "link": "https://www.ognesports.com/"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -120,10 +123,10 @@
     "name": "PEL 2019 Phase 1",
     "link": "https://pubg-esports.gamepedia.com/PUBG_Europe_League/2019_Season/Phase_1",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "StarLadder",
             "link": "https://pubg.starladder.com"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -140,10 +143,10 @@
     "name": "PML 2019 Phase 1",
     "link": "https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Regular_Season",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "Bluehole",
             "link": "https://www.bluehole.net"
-        },
+        }],
         "Number of Teams": "24",
         "Links": {
             "name": "Website",
@@ -160,10 +163,16 @@
     "name": "PKL 2019 Phase 1",
     "link": "https://pubg-esports.gamepedia.com/PUBG_Korea_League/2019_Season/Phase_1",
     "data": {
-        "Organizer": {
-            "name": "BlueholeAfreecaTVOngamenet",
+        "Organizer": [{
+            "name": "Bluehole",
             "link": "https://www.bluehole.net"
-        },
+        }, {
+            "name": "AfreecaTV",
+            "link": "http://www.afreecatv.com/"
+        }, {
+            "name": "Ongamenet",
+            "link": "http://program.tving.com/ongamenet/ognglobal"
+        }],
         "Number of Teams": "24",
         "Links": {
             "name": "Website",
@@ -180,10 +189,10 @@
     "name": "NPLC Phase 1 Relegation",
     "link": "https://pubg-esports.gamepedia.com/National_PUBG_League_Contenders/2019_Season/Phase_1_Relegation",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "OGN",
             "link": "https://www.ognesports.com/"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -203,10 +212,10 @@
     "name": "PEL Contenders 2019 Phase 1",
     "link": "https://pubg-esports.gamepedia.com/PUBG_Europe_League_Contenders/2019_Season/Phase_1",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "StarLadder",
             "link": "https://pubg.starladder.com"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -223,10 +232,10 @@
     "name": "NPL Contenders Phase 1",
     "link": "https://pubg-esports.gamepedia.com/National_PUBG_League_Contenders/2019_Season/Phase_1",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "OGN",
             "link": "https://www.ognesports.com/"
-        },
+        }],
         "Number of Teams": null,
         "Links": {
             "name": "Website",
@@ -246,10 +255,10 @@
     "name": "Douyu Golden Legends S6",
     "link": "https://pubg-esports.gamepedia.com/Douyu_PUBG_Golden_Legends/Season_6",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "Douyu",
             "link": "https://www.douyu.com/"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -266,10 +275,10 @@
     "name": "NPL 2019 Phase 1",
     "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/Phase_1",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "OGN",
             "link": "https://www.ognesports.com/"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -289,10 +298,13 @@
     "name": "PML 2019 Phase 1 Open Qualifiers",
     "link": "https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Open_Qualifiers",
     "data": {
-        "Organizer": {
-            "name": "Bluehole4Gamers",
+        "Organizer": [{
+            "name": "Bluehole",
             "link": "https://www.bluehole.net"
-        },
+        }, {
+            "name": "4Gamers",
+            "link": "https://www.4gamers.com.tw/"
+        }],
         "Number of Teams": "64",
         "Links": {
             "name": "Website",
@@ -309,10 +321,10 @@
     "name": "NPL Royale 1",
     "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/NPL_Royale_1",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "OGN",
             "link": "https://www.ognesports.com/"
-        },
+        }],
         "Number of Teams": "32",
         "Links": null,
         "Region": "North America",
@@ -329,10 +341,10 @@
     "name": "Asia Pacific Predator League 2019",
     "link": "https://pubg-esports.gamepedia.com/Asia_Pacific_Predator_League_2019",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "Acer",
             "link": "https://www.acer.com/"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -349,10 +361,10 @@
     "name": "Nordic Esports League Season 4",
     "link": "https://pubg-esports.gamepedia.com/Nordic_Esports_League/2018/Division_1/Season_4",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "Challengermode",
             "link": "https://www.challengermode.com/"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
@@ -369,10 +381,10 @@
     "name": "NPL 2019 Preseason",
     "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/Preseason",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "OGN",
             "link": "https://www.ognesports.com/"
-        },
+        }],
         "Number of Teams": "32",
         "Links": {
             "name": "Website",
@@ -389,10 +401,10 @@
     "name": "PUBG Asia Invitational 2019",
     "link": "https://pubg-esports.gamepedia.com/PUBG_Asia_Invitational_2019",
     "data": {
-        "Organizer": {
+        "Organizer": [{
             "name": "Bluehole",
             "link": "https://www.bluehole.net/kr/"
-        },
+        }],
         "Number of Teams": "16",
         "Links": {
             "name": "Website",
