@@ -1,0 +1,21 @@
+{
+    "start": "20190727",
+    "end": "20190728",
+    "name": "IPL 2019 Open Qualifier 2",
+    "link": "https://lol.gamepedia.com/Imperial_Esports_Pro_League/2019_Season/Open_Qualifier_2",
+    "data": {
+        "Organizer": [{
+            "name": "Paleo Gaming",
+            "link": "http://www.paleogaming.com/"
+        }],
+        "Number of Teams": null,
+        "Prize Pool": null,
+        "Region": "North America",
+        "Type": null,
+        "Links": "Website",
+        "Streams": null,
+        "Schedule": null,
+        "Sponsors": null,
+        "Event Type": "Online"
+    }
+}

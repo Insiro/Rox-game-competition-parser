@@ -25,7 +25,9 @@ def parse(link):
             'Region': None, 'Type': None, 'Tier': None, 'Streams': None}
     for block in soup.select(tag):
         texts = block.text
-        if temp != 'Nan':
+        if len(keyord & {texts}) != 0:
+            temp = texts
+        elif temp != 'Nan':
             if temp == 'Links':
                 data[temp] = {'name': block.text, 'link': block.a['href']}
             elif temp == 'Organizer':
@@ -45,8 +47,6 @@ def parse(link):
                 data[temp] = block.text.split(
                     '\xa0')[1] if temp == 'Region' else block.text
             temp = 'Nan'
-        elif len(keyord & {texts}) != 0:
-            temp = texts
     return data
 
 
