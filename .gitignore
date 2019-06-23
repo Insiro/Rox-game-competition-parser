@@ -3,3 +3,4 @@ vscode/
 *.zip
 *temp.py
 *tempCodeRunnerFile.py
+__pycache__/
