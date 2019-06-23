@@ -11,9 +11,13 @@ def parse():
     year = str(datetime.today().year)
     hostname = 'https://lol.gamepedia.com'
     link = 'https://lol.gamepedia.com/Leaguepedia:Tournaments'
+    status = CS.check(link)
+    if status != 0:
+        return -1
     req = requests.get(link)
     html = req.text
     soup = BeautifulSoup(html, 'html.parser')
+
     lists = list()
     tags = '#mw-content-text > div > div > div > div > table > tbody > tr:nth-child(2) > td > div > div'
 

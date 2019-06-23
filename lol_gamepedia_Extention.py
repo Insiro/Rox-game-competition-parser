@@ -9,6 +9,9 @@ def parsetest():
 
 
 def parse(link):
+    status = CS.check(link)
+    if status != 0:
+        return None
     texts = 'Nan'
     temp = 'Nan'
     req = requests.get(link)
