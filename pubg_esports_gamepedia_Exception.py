@@ -5,12 +5,11 @@ import checkStatus as CS
 
 keyord = {'Organizer', 'Number of Teams', 'Links', 'Region',
           'Type', 'Tier', 'Stream(s)'}
-have_ln = {'Links', 'Stream(s)', 'Organizer'}
 tag = '#infoboxTournament > tbody > tr > td'
 
 
 def parsetest():
-    parse('https://pubg-esports.gamepedia.com/FACEIT_Global_Summit_2019')
+    print(parse('https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Finals'))
 
 
 def parse(link):
@@ -23,26 +22,31 @@ def parse(link):
     soup = BeautifulSoup(html, 'html.parser')
     temp = 'Nan'
     data = {'Organizer': None, 'Number of Teams': None, 'Links': None,
-            'Region': None, 'Type': None, 'Tier': None, 'Stream(s)': None}
+            'Region': None, 'Type': None, 'Tier': None, 'Streams': None}
     for block in soup.select(tag):
         texts = block.text
         if temp != 'Nan':
-            if temp == 'Links'or temp == 'Organizer':
+            if temp == 'Links':
                 data[temp] = {'name': block.text, 'link': block.a['href']}
+            elif temp == 'Organizer':
+                data[temp] = list()
+                for org in block.select('td > a'):
+                    data['Organizer'] .append(
+                        {'name': org.text, 'link': org['href']})
+
             elif temp == 'Stream(s)':
-                data[temp] = [{'name': block.a.text, 'link': block.a['href']}]
+                data['Streams'] = [
+                    {'name': block.a.text, 'link': block.a['href']}]
                 if block.p != None:
                     for a in block.p.select('a'):
-                        data[temp].append({'name': a.text, 'link': a['href']})
+                        data['Streams'].append(
+                            {'name': a.text, 'link': a['href']})
             else:
-                if temp == 'Region':
-                    data[temp] = block.text.split('\xa0')[1]
-                else:
-                    data[temp] = block.text
+                data[temp] = block.text.split(
+                    '\xa0')[1] if temp == 'Region' else block.text
             temp = 'Nan'
         elif len(keyord & {texts}) != 0:
             temp = texts
-    print(data)
     return data
 
 
