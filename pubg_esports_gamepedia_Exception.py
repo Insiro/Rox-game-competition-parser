@@ -23,17 +23,19 @@ def parse(link):
     soup = BeautifulSoup(html, 'html.parser')
     temp = 'Nan'
     data = {'Organizer': None, 'Number of Teams': None, 'Links': None,
-            'Region': None, 'Type': None, 'Tier': None, 'Stream(s)': None}
+            'Region': None, 'Type': None, 'Tier': None, 'Streams': None}
     for block in soup.select(tag):
         texts = block.text
         if temp != 'Nan':
             if temp == 'Links'or temp == 'Organizer':
                 data[temp] = {'name': block.text, 'link': block.a['href']}
             elif temp == 'Stream(s)':
-                data[temp] = [{'name': block.a.text, 'link': block.a['href']}]
+                data['Streams'] = [
+                    {'name': block.a.text, 'link': block.a['href']}]
                 if block.p != None:
                     for a in block.p.select('a'):
-                        data[temp].append({'name': a.text, 'link': a['href']})
+                        data['Streams'].append(
+                            {'name': a.text, 'link': a['href']})
             else:
                 if temp == 'Region':
                     data[temp] = block.text.split('\xa0')[1]
