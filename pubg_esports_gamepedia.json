@@ -1,1 +1,453 @@
-[{"start": "20190719", "end": "20190721", "name": "GLL Grand Slam 2019", "link": "https://pubg-esports.gamepedia.com/GLL_GRAND_SLAM:_PUBG_Classic", "data": {"Organizer": {"name": "GLL", "link": "https://gll.gg/"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://www.grandslam.gg/"}, "Region": "International", "Type": "Offline", "Tier": "Premier", "Stream(s)": [{"name": "Twitch", "link": "http://www.twitch.tv/gll"}]}}, {"start": "20190416", "end": "20190421", "name": "FACEIT Global Summit 2019", "link": "https://pubg-esports.gamepedia.com/FACEIT_Global_Summit_2019", "data": {"Organizer": {"name": "FACEIT", "link": "https://www.faceit.com/"}, "Number of Teams": null, "Links": {"name": "Website", "link": "https://www.faceitglobalsummit.com/"}, "Region": "International", "Type": "Offline", "Tier": "Premier", "Stream(s)": [{"name": "Douyu", "link": "https://www.douyu.com/topic/FGS?rid=100"}, {"name": "Twitch", "link": "https://www.twitch.tv/pubg_es"}, {"name": "Youtube", "link": "https://www.youtube.com/AerowolfOrganizer"}, {"name": "Twitch", "link": "https://www.twitch.tv/faceit_jp"}, {"name": "AfreecaTV", "link": "http://play.afreecatv.com/pols1234/213212597"}, {"name": "Twitch", "link": "https://www.twitch.tv/faceit_br"}, {"name": "Twitch", "link": "https://www.twitch.tv/fpsthailand"}, {"name": "Twitch", "link": "https://www.twitch.tv/faceittv"}, {"name": "Twitch - Only Map", "link": "https://www.twitch.tv/faceittv2"}, {"name": "YouTube", "link": "https://www.youtube.com/FACEIT"}]}}, {"start": "20190330", "end": "20190331", "name": "PML 2019 Phase 1 Finals", "link": "https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Finals", "data": {"Organizer": {"name": "Bluehole4Gamers", "link": "https://www.bluehole.net"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://pml.pubgesports.tw/"}, "Region": "HK, TW, MCO", "Type": "Offline", "Tier": "Premier", "Stream(s)": null}}, {"start": "20190322", "end": "20190324", "name": "NPL Phase 1 Relegation", "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/Phase_1_Relegation", "data": {"Organizer": {"name": "OGN", "link": "https://www.ognesports.com/"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://na.pubgesports.com/"}, "Region": "North America", "Type": "Offline", "Tier": "Premier", "Stream(s)": [{"name": "Twitch", "link": "https://www.twitch.tv/playbattlegrounds"}]}}, {"start": "20190321", "end": "20190407", "name": "PEL 2019 Phase 1", "link": "https://pubg-esports.gamepedia.com/PUBG_Europe_League/2019_Season/Phase_1", "data": {"Organizer": {"name": "StarLadder", "link": "https://pubg.starladder.com"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://pubgesports.eu/"}, "Region": "Europe", "Type": "Offline", "Tier": "Premier", "Stream(s)": null}}, {"start": "20190313", "end": "20190324", "name": "PML 2019 Phase 1", "link": "https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Regular_Season", "data": {"Organizer": {"name": "Bluehole", "link": "https://www.bluehole.net"}, "Number of Teams": "24", "Links": {"name": "Website", "link": "https://pml.pubgesports.tw/"}, "Region": "HK, TW, MCO", "Type": "Online", "Tier": "Premier", "Stream(s)": null}}, {"start": "20190211", "end": "20190323", "name": "PKL 2019 Phase 1", "link": "https://pubg-esports.gamepedia.com/PUBG_Korea_League/2019_Season/Phase_1", "data": {"Organizer": {"name": "BlueholeAfreecaTVOngamenet", "link": "https://www.bluehole.net"}, "Number of Teams": "24", "Links": {"name": "Website", "link": "http://www.pubgesports.kr/"}, "Region": "Korea", "Type": "Offline", "Tier": "Premier", "Stream(s)": null}}, {"start": "20190315", "end": "20190317", "name": "NPLC Phase 1 Relegation", "link": "https://pubg-esports.gamepedia.com/National_PUBG_League_Contenders/2019_Season/Phase_1_Relegation", "data": {"Organizer": {"name": "OGN", "link": "https://www.ognesports.com/"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://na.pubgesports.com/"}, "Region": "North America", "Type": null, "Tier": "Premier", "Stream(s)": [{"name": "Twitch", "link": "https://www.twitch.tv/playbattlegrounds"}]}}, {"start": "20190221", "end": "20190317", "name": "PEL Contenders 2019 Phase 1", "link": "https://pubg-esports.gamepedia.com/PUBG_Europe_League_Contenders/2019_Season/Phase_1", "data": {"Organizer": {"name": "StarLadder", "link": "https://pubg.starladder.com"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://pubgesports.eu/"}, "Region": "Europe", "Type": "Online", "Tier": "Premier", "Stream(s)": null}}, {"start": "20190205", "end": "20190312", "name": "NPL Contenders Phase 1", "link": "https://pubg-esports.gamepedia.com/National_PUBG_League_Contenders/2019_Season/Phase_1", "data": {"Organizer": {"name": "OGN", "link": "https://www.ognesports.com/"}, "Number of Teams": null, "Links": {"name": "Website", "link": "https://na.pubgesports.com/"}, "Region": "North America", "Type": "Online", "Tier": "Premier", "Stream(s)": [{"name": "Twitch", "link": "https://www.twitch.tv/playbattlegrounds"}]}}, {"start": "20190308", "end": "20190310", "name": "Douyu Golden Legends S6", "link": "https://pubg-esports.gamepedia.com/Douyu_PUBG_Golden_Legends/Season_6", "data": {"Organizer": {"name": "Douyu", "link": "https://www.douyu.com/"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://www.douyu.com/topic/DPGLG6"}, "Region": "China", "Type": "Offline", "Tier": "Premier", "Stream(s)": null}}, {"start": "20190201", "end": "20190309", "name": "NPL 2019 Phase 1", "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/Phase_1", "data": {"Organizer": {"name": "OGN", "link": "https://www.ognesports.com/"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://na.pubgesports.com/"}, "Region": "North America", "Type": "Offline", "Tier": "Premier", "Stream(s)": [{"name": "Twitch", "link": "https://www.twitch.tv/playbattlegrounds"}]}}, {"start": "20190305", "end": "20190307", "name": "PML 2019 Phase 1 Open Qualifiers", "link": "https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Open_Qualifiers", "data": {"Organizer": {"name": "Bluehole4Gamers", "link": "https://www.bluehole.net"}, "Number of Teams": "64", "Links": {"name": "Website", "link": "https://pml.pubgesports.tw/"}, "Region": "HK, TW, MCO", "Type": "Online", "Tier": "Premier", "Stream(s)": null}}, {"start": "20190222", "end": "20190224", "name": "NPL Royale 1", "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/NPL_Royale_1", "data": {"Organizer": {"name": "OGN", "link": "https://www.ognesports.com/"}, "Number of Teams": "32", "Links": null, "Region": "North America", "Type": "Offline", "Tier": "Premier", "Stream(s)": [{"name": "Twitch", "link": "https://www.twitch.tv/playbattlegrounds"}]}}, {"start": "20190215", "end": "20190217", "name": "Asia Pacific Predator League 2019", "link": "https://pubg-esports.gamepedia.com/Asia_Pacific_Predator_League_2019", "data": {"Organizer": {"name": "Acer", "link": "https://www.acer.com/"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://www.predator-league.com/"}, "Region": "Asia", "Type": null, "Tier": "Premier", "Stream(s)": null}}, {"start": "20190114", "end": "20190120", "name": "Nordic Esports League Season 4", "link": "https://pubg-esports.gamepedia.com/Nordic_Esports_League/2018/Division_1/Season_4", "data": {"Organizer": {"name": "Challengermode", "link": "https://www.challengermode.com/"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://www.challengermode.com/nordic-esports-league/pubg"}, "Region": "Europe", "Type": "Online", "Tier": "Minor", "Stream(s)": null}}, {"start": "20190107", "end": "20190113", "name": "NPL 2019 Preseason", "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/Preseason", "data": {"Organizer": {"name": "OGN", "link": "https://www.ognesports.com/"}, "Number of Teams": "32", "Links": {"name": "Website", "link": "https://www.ognesports.com/tournaments/national-pubg-league/"}, "Region": "North America", "Type": "Offline", "Tier": "Premier", "Stream(s)": null}}, {"start": "20190110", "end": "20190112", "name": "PUBG Asia Invitational 2019", "link": "https://pubg-esports.gamepedia.com/PUBG_Asia_Invitational_2019", "data": {"Organizer": {"name": "Bluehole", "link": "https://www.bluehole.net/kr/"}, "Number of Teams": "16", "Links": {"name": "Website", "link": "https://pai.pubg.com/sea"}, "Region": "Asia", "Type": null, "Tier": "Premier", "Stream(s)": [{"name": "Twitch", "link": "https://www.twitch.tv/pgl_pubg"}]}}]
+[
+    {
+        "start": "20190719",
+        "end": "20190721",
+        "name": "GLL Grand Slam 2019",
+        "link": "https://pubg-esports.gamepedia.com/GLL_GRAND_SLAM:_PUBG_Classic",
+        "data": {
+            "Organizer": {
+                "name": "GLL",
+                "link": "https://gll.gg/"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://www.grandslam.gg/"
+            },
+            "Region": "International",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": [
+                {
+                    "name": "Twitch",
+                    "link": "http://www.twitch.tv/gll"
+                }
+            ]
+        }
+    },
+    {
+        "start": "20190416",
+        "end": "20190421",
+        "name": "FACEIT Global Summit 2019",
+        "link": "https://pubg-esports.gamepedia.com/FACEIT_Global_Summit_2019",
+        "data": {
+            "Organizer": {
+                "name": "FACEIT",
+                "link": "https://www.faceit.com/"
+            },
+            "Number of Teams": null,
+            "Links": {
+                "name": "Website",
+                "link": "https://www.faceitglobalsummit.com/"
+            },
+            "Region": "International",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": [
+                {
+                    "name": "Douyu",
+                    "link": "https://www.douyu.com/topic/FGS?rid=100"
+                },
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/pubg_es"
+                },
+                {
+                    "name": "Youtube",
+                    "link": "https://www.youtube.com/AerowolfOrganizer"
+                },
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/faceit_jp"
+                },
+                {
+                    "name": "AfreecaTV",
+                    "link": "http://play.afreecatv.com/pols1234/213212597"
+                },
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/faceit_br"
+                },
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/fpsthailand"
+                },
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/faceittv"
+                },
+                {
+                    "name": "Twitch - Only Map",
+                    "link": "https://www.twitch.tv/faceittv2"
+                },
+                {
+                    "name": "YouTube",
+                    "link": "https://www.youtube.com/FACEIT"
+                }
+            ]
+        }
+    },
+    {
+        "start": "20190330",
+        "end": "20190331",
+        "name": "PML 2019 Phase 1 Finals",
+        "link": "https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Finals",
+        "data": {
+            "Organizer": {
+                "name": "Bluehole4Gamers",
+                "link": "https://www.bluehole.net"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://pml.pubgesports.tw/"
+            },
+            "Region": "HK, TW, MCO",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190322",
+        "end": "20190324",
+        "name": "NPL Phase 1 Relegation",
+        "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/Phase_1_Relegation",
+        "data": {
+            "Organizer": {
+                "name": "OGN",
+                "link": "https://www.ognesports.com/"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://na.pubgesports.com/"
+            },
+            "Region": "North America",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": [
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/playbattlegrounds"
+                }
+            ]
+        }
+    },
+    {
+        "start": "20190321",
+        "end": "20190407",
+        "name": "PEL 2019 Phase 1",
+        "link": "https://pubg-esports.gamepedia.com/PUBG_Europe_League/2019_Season/Phase_1",
+        "data": {
+            "Organizer": {
+                "name": "StarLadder",
+                "link": "https://pubg.starladder.com"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://pubgesports.eu/"
+            },
+            "Region": "Europe",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190313",
+        "end": "20190324",
+        "name": "PML 2019 Phase 1",
+        "link": "https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Regular_Season",
+        "data": {
+            "Organizer": {
+                "name": "Bluehole",
+                "link": "https://www.bluehole.net"
+            },
+            "Number of Teams": "24",
+            "Links": {
+                "name": "Website",
+                "link": "https://pml.pubgesports.tw/"
+            },
+            "Region": "HK, TW, MCO",
+            "Type": "Online",
+            "Tier": "Premier",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190211",
+        "end": "20190323",
+        "name": "PKL 2019 Phase 1",
+        "link": "https://pubg-esports.gamepedia.com/PUBG_Korea_League/2019_Season/Phase_1",
+        "data": {
+            "Organizer": {
+                "name": "BlueholeAfreecaTVOngamenet",
+                "link": "https://www.bluehole.net"
+            },
+            "Number of Teams": "24",
+            "Links": {
+                "name": "Website",
+                "link": "http://www.pubgesports.kr/"
+            },
+            "Region": "Korea",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190315",
+        "end": "20190317",
+        "name": "NPLC Phase 1 Relegation",
+        "link": "https://pubg-esports.gamepedia.com/National_PUBG_League_Contenders/2019_Season/Phase_1_Relegation",
+        "data": {
+            "Organizer": {
+                "name": "OGN",
+                "link": "https://www.ognesports.com/"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://na.pubgesports.com/"
+            },
+            "Region": "North America",
+            "Type": null,
+            "Tier": "Premier",
+            "Stream(s)": [
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/playbattlegrounds"
+                }
+            ]
+        }
+    },
+    {
+        "start": "20190221",
+        "end": "20190317",
+        "name": "PEL Contenders 2019 Phase 1",
+        "link": "https://pubg-esports.gamepedia.com/PUBG_Europe_League_Contenders/2019_Season/Phase_1",
+        "data": {
+            "Organizer": {
+                "name": "StarLadder",
+                "link": "https://pubg.starladder.com"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://pubgesports.eu/"
+            },
+            "Region": "Europe",
+            "Type": "Online",
+            "Tier": "Premier",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190205",
+        "end": "20190312",
+        "name": "NPL Contenders Phase 1",
+        "link": "https://pubg-esports.gamepedia.com/National_PUBG_League_Contenders/2019_Season/Phase_1",
+        "data": {
+            "Organizer": {
+                "name": "OGN",
+                "link": "https://www.ognesports.com/"
+            },
+            "Number of Teams": null,
+            "Links": {
+                "name": "Website",
+                "link": "https://na.pubgesports.com/"
+            },
+            "Region": "North America",
+            "Type": "Online",
+            "Tier": "Premier",
+            "Stream(s)": [
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/playbattlegrounds"
+                }
+            ]
+        }
+    },
+    {
+        "start": "20190308",
+        "end": "20190310",
+        "name": "Douyu Golden Legends S6",
+        "link": "https://pubg-esports.gamepedia.com/Douyu_PUBG_Golden_Legends/Season_6",
+        "data": {
+            "Organizer": {
+                "name": "Douyu",
+                "link": "https://www.douyu.com/"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://www.douyu.com/topic/DPGLG6"
+            },
+            "Region": "China",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190201",
+        "end": "20190309",
+        "name": "NPL 2019 Phase 1",
+        "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/Phase_1",
+        "data": {
+            "Organizer": {
+                "name": "OGN",
+                "link": "https://www.ognesports.com/"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://na.pubgesports.com/"
+            },
+            "Region": "North America",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": [
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/playbattlegrounds"
+                }
+            ]
+        }
+    },
+    {
+        "start": "20190305",
+        "end": "20190307",
+        "name": "PML 2019 Phase 1 Open Qualifiers",
+        "link": "https://pubg-esports.gamepedia.com/PUBG_Master_League/2019_Season/Phase_1/Open_Qualifiers",
+        "data": {
+            "Organizer": {
+                "name": "Bluehole4Gamers",
+                "link": "https://www.bluehole.net"
+            },
+            "Number of Teams": "64",
+            "Links": {
+                "name": "Website",
+                "link": "https://pml.pubgesports.tw/"
+            },
+            "Region": "HK, TW, MCO",
+            "Type": "Online",
+            "Tier": "Premier",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190222",
+        "end": "20190224",
+        "name": "NPL Royale 1",
+        "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/NPL_Royale_1",
+        "data": {
+            "Organizer": {
+                "name": "OGN",
+                "link": "https://www.ognesports.com/"
+            },
+            "Number of Teams": "32",
+            "Links": null,
+            "Region": "North America",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": [
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/playbattlegrounds"
+                }
+            ]
+        }
+    },
+    {
+        "start": "20190215",
+        "end": "20190217",
+        "name": "Asia Pacific Predator League 2019",
+        "link": "https://pubg-esports.gamepedia.com/Asia_Pacific_Predator_League_2019",
+        "data": {
+            "Organizer": {
+                "name": "Acer",
+                "link": "https://www.acer.com/"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://www.predator-league.com/"
+            },
+            "Region": "Asia",
+            "Type": null,
+            "Tier": "Premier",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190114",
+        "end": "20190120",
+        "name": "Nordic Esports League Season 4",
+        "link": "https://pubg-esports.gamepedia.com/Nordic_Esports_League/2018/Division_1/Season_4",
+        "data": {
+            "Organizer": {
+                "name": "Challengermode",
+                "link": "https://www.challengermode.com/"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://www.challengermode.com/nordic-esports-league/pubg"
+            },
+            "Region": "Europe",
+            "Type": "Online",
+            "Tier": "Minor",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190107",
+        "end": "20190113",
+        "name": "NPL 2019 Preseason",
+        "link": "https://pubg-esports.gamepedia.com/National_PUBG_League/2019_Season/Preseason",
+        "data": {
+            "Organizer": {
+                "name": "OGN",
+                "link": "https://www.ognesports.com/"
+            },
+            "Number of Teams": "32",
+            "Links": {
+                "name": "Website",
+                "link": "https://www.ognesports.com/tournaments/national-pubg-league/"
+            },
+            "Region": "North America",
+            "Type": "Offline",
+            "Tier": "Premier",
+            "Stream(s)": null
+        }
+    },
+    {
+        "start": "20190110",
+        "end": "20190112",
+        "name": "PUBG Asia Invitational 2019",
+        "link": "https://pubg-esports.gamepedia.com/PUBG_Asia_Invitational_2019",
+        "data": {
+            "Organizer": {
+                "name": "Bluehole",
+                "link": "https://www.bluehole.net/kr/"
+            },
+            "Number of Teams": "16",
+            "Links": {
+                "name": "Website",
+                "link": "https://pai.pubg.com/sea"
+            },
+            "Region": "Asia",
+            "Type": null,
+            "Tier": "Premier",
+            "Stream(s)": [
+                {
+                    "name": "Twitch",
+                    "link": "https://www.twitch.tv/pgl_pubg"
+                }
+            ]
+        }
+    }
+]
