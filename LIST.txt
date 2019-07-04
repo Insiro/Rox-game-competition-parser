@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -Lol: https://lol.gamepedia.com/Leaguepedia:Tournaments
 	Apex Lengend: https://legend.gg/?gclid=Cj0KCQjw5J_mBRDVARIsAGqGLZCW9fwtmNUQliJbOwIFDSYi_ID3yKo8kJv6V5xw9yvkmns-wvyuS1waAlnBEALw_wcB
 CSgo: https://www.hltv.org/events
@@ -5,3 +6,12 @@ CSgo: https://www.hltv.org/events
 *PUBG: https://www.challengermode.com/pubg/tournaments
 Fortnite: https://www.toornament.com/games/fortnite
 https://fortnitetracker.com/events
+=======
+Lol: https://lol.gamepedia.com/Leaguepedia:Tournaments
+	Apex Lengend: https://legend.gg/?gclid=Cj0KCQjw5J_mBRDVARIsAGqGLZCW9fwtmNUQliJbOwIFDSYi_ID3yKo8kJv6V5xw9yvkmns-wvyuS1waAlnBEALw_wcB
+CSgo: https://www.hltv.org/events
+Overwatch: https://www.toornament.com/games/overwatch
+PUBG: https://www.challengermode.com/pubg/tournaments
+Fortnite: https://www.toornament.com/games/fortnite
+https://fortnitetracker.com/events
+>>>>>>> 968e393a65a1e619ec1bcab983d121742abfc232
