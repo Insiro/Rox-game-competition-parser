@@ -1,6 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 import checkStatus as CS
+import gamepedia_schedule_calander as GS
+
+
+def test():
+    return parse('https://lol.gamepedia.com/Esports_Balkan_League/Season_5')
+
 
 def parse(link):
     status = CS.check(link)
@@ -38,7 +44,8 @@ def parse(link):
                     for a in block.select('a'):
                         data[temp].append({'name': a.text, 'link': a['href']})
             elif temp == 'Schedule':
-                data[temp] = block.a['href']
+
+                data[temp] = GS.parse(block.select('a')[1]['href'])
             else:
                 if temp == 'Event Type':
                     temp = 'Type'

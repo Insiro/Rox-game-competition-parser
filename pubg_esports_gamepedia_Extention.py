@@ -2,13 +2,15 @@ import requests
 from bs4 import BeautifulSoup
 import Month_to_NUM as con
 import checkStatus as CS
+import gamepedia_spolier as GS
+
 
 def parse(link):
     status = CS.check(link)
     if status != 0:
         return None
     keyord = {'Organizer', 'Number of Teams', 'Links', 'Region',
-          'Type', 'Tier', 'Stream(s)'}
+              'Type', 'Tier', 'Stream(s)', 'Schedule'}
     tag = '#infoboxTournament > tbody > tr > td'
     req = requests.get(link)
     html = req.text
@@ -16,7 +18,7 @@ def parse(link):
     soup = BeautifulSoup(html, 'html.parser')
     temp = 'Nan'
     data = {'Organizer': None, 'Number of Teams': None, 'Links': None,
-            'Region': None, 'Type': None, 'Tier': None, 'Streams': None}
+            'Region': None, 'Type': None, 'Tier': None, 'Streams': None, 'Schedule': None}
     for block in soup.select(tag):
         texts = block.text
         if len(keyord & {texts}) != 0:
@@ -29,7 +31,8 @@ def parse(link):
                 for org in block.select('td > a'):
                     data['Organizer'] .append(
                         {'name': org.text, 'link': org['href']})
-
+            elif temp == 'Schedule':
+                data['Schedule'] = GS.parse(block.a['href'])
             elif temp == 'Stream(s)':
                 data['Streams'] = [
                     {'name': block.a.text, 'link': block.a['href']}]

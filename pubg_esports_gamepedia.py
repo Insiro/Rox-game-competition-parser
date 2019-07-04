@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 import Month_to_NUM as con
 import checkStatus as CS
-import pubg_esports_gamepedia_Exception as Ex
+import pubg_esports_gamepedia_Extention as Ex
 import jsonout as JO
 
 
@@ -36,5 +36,7 @@ def parse():
         temp = name_list[i].a['href']
         lists[i]['link'] = hostname+temp
         lists[i]['data'] = Ex.parse(hostname+temp)
+
     JO.output('pubg_esports_gamepedia.json', lists)
     return 0
+parse()
