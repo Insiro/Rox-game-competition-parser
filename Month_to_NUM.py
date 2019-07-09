@@ -20,10 +20,10 @@ def Short(str1):
     elif (strs == 'sep'):
         return '09'
     elif (strs == 'oct'):
-        return '010'
+        return '10'
     elif (strs == 'nov'):
-        return '011'
+        return '11'
     elif (strs == 'dec'):
-        return '012'
+        return '12'
     else:
         return None
