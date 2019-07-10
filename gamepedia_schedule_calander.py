@@ -24,4 +24,7 @@ def parse(link):
     return lists
 
 
-print(parse(testl))
+if len(parse(testl) )!= 0:
+    print('gamepedia schedule calender is safe')
+else:
+    print('gamepedia schedule calender is unsafe')
