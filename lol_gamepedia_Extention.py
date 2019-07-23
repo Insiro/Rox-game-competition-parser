@@ -21,7 +21,7 @@ def parse(link):
              'Links', 'Streams', 'Schedule'  # , 'Sponsor(s)'
              }
     tag = '#infoboxTournament > tbody > tr > td'
-    data = {'Organizer': None, 'Number of Teams': None, 'Prize': None, 'Region': None,
+    data = {'Organizer': None, 'Number of Teams': None, 'Tier': None,'Prize': None, 'Region': None,
             'Type': None, 'Links': None, 'Streams': None, 'Schedule': None  # ,'Sponsors': None
             }
     for block in soup.select(tag):

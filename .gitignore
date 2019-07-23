@@ -5,3 +5,6 @@ vscode/
 *tempCodeRunnerFile.py
 __pycache__/
 *_test.py
+*_test.c
+*_test.html
+*_test.json

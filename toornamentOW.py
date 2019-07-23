@@ -37,8 +37,7 @@ def parse():
             i = 0
             team = table[5].span.text[:-1]
             lists.append({'start': start, 'end': end,
-                          'name': name, 'link': link, 'date': {'Organizer': None, 'Number of Teams': team, 'Links': None,
-                                                               'Region': regin, 'Type': types, 'Streams': None, 'Schedule': None}})
+                          'name': name, 'link': link, 'date': {'Organizer': None, 'Number of Teams': team, 'Links': None, 'Region': None, 'Type': None,  'Tier': None, 'Prize': None, 'Streams': None, 'Schedule': None}})
     JO.output('toornamentOW.json', lists)
     return 0
 

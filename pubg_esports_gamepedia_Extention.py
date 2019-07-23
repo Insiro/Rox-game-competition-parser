@@ -18,7 +18,7 @@ def parse(link):
     soup = BeautifulSoup(html, 'html.parser')
     temp = 'Nan'
     data = {'Organizer': None, 'Number of Teams': None, 'Links': None,
-            'Region': None, 'Type': None, 'Tier': None, 'Streams': None, 'Schedule': None}
+            'Region': None, 'Type': None, 'Tier': None,'Prize': None, 'Streams': None, 'Schedule': None}
     for block in soup.select(tag):
         texts = block.text
         if len(keyord & {texts}) != 0:
