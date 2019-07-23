@@ -39,6 +39,3 @@ def parse():
 
     JO.output('pubg_esports_gamepedia.json', lists)
     return 0
-
-
-parse()

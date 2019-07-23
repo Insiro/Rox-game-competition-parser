@@ -40,6 +40,3 @@ def parse():
                           'name': name, 'link': link, 'date': {'Organizer': None, 'Number of Teams': team, 'Links': None, 'Region': None, 'Type': None,  'Tier': None, 'Prize': None, 'Streams': None, 'Schedule': None}})
     JO.output('toornamentOW.json', lists)
     return 0
-
-
-parse()
