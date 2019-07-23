@@ -4,15 +4,15 @@ from pprint import pprint
 
 
 def upload():
-    filename = ['lol_gamepedia.json']
+    filename = ['toornamentOW.json']
     client = MongoClient()
     client = MongoClient('localhost')
     db = client['rox']
-    collection = db['LOL']
+    collection = db['OW']
     # number of find data :data.count()
     for fname in filename:
-        LOL = open(fname, 'r').read()
-        Jdata = json.loads(LOL)
+        OW = open(fname, 'r').read()
+        Jdata = json.loads(OW)
         for data in Jdata:
             name = data.get('name')
             print(name)
