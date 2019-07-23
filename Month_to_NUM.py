@@ -2,23 +2,23 @@
 def Short(str1):
     strs = str1.lower()
     if(strs == 'jan'):
-        return '01'
+        return 1
     elif(strs == 'feb'):
-        return '02'
+        return 2
     elif(strs == 'mar'):
-        return '03'
+        return 3
     elif (strs == 'apr'):
-        return '04'
+        return 4
     elif (strs == 'may'):
-        return '05'
+        return 5
     elif (strs == 'jun'):
-        return '06'
+        return 6
     elif (strs == 'jul'):
-        return '07'
+        return 7
     elif (strs == 'aug'):
-        return '08'
+        return 8
     elif (strs == 'sep'):
-        return '09'
+        return 9
     elif (strs == 'oct'):
         return '10'
     elif (strs == 'nov'):

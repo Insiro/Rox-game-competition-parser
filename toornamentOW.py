@@ -2,9 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 import jsonout as JO
 import checkStatus as CS
+import datetime
 
 
 def parse():
+    hostname = 'https://www.toornament.com'
     link = 'https://www.toornament.com/games/overwatch'
     tag = '#tournament-game-list-tab > section > div'
     if CS.check(link) != 0:
@@ -17,22 +19,24 @@ def parse():
     lists = list()
     div = soup.select(tag)
     for i in range(2, 5):
-        j = 0
-        for label in div[i].select('div > a > div'):
-            j += 1
-            if j == 2:
-                name = label.select('div')[0].text
-            elif j == 3:
-                k = 1
-                end = None
-                for timetag in label.select('div > time'):
-                    if k == 1:
-                        start = ''.join(timetag['datetime'].split('-'))
-                    else:
-                        end = ''.join(timetag['datetime'].split('-'))
-                    k = -k
-            elif j == 5:
-                lists.append({'start': start, 'end': end, 'name': name})
-                j = 0
-    JO.output('toornament.json', lists)
+        for label in div[i].select('div > a'):
+            link = hostname+label['href']
+            table = label.select('div')
+            name = table[1].div.text
+            i = 0
+            start = end = None
+            for date in table[6].select('div > date-view'):
+                temp = date['value'].split('-')
+                if i == 1:
+                    start = datetime.datetime(int(temp[0]), int(
+                        temp[1]), int(temp[2])).strftime('%Y%m%d')
+                    i += 1
+                elif i == 2:
+                    end = datetime.datetime(int(temp[0]), int(
+                        temp[1]), int(temp[2])).strftime('%Y%m%d')
+            i = 0
+            team = table[5].span.text[:-1]
+            lists.append({'start': start, 'end': end,
+                          'name': name, 'link': link, 'date': {'Organizer': None, 'Number of Teams': team, 'Links': None, 'Region': None, 'Type': None,  'Tier': None, 'Prize': None, 'Streams': None, 'Schedule': None}})
+    JO.output('toornamentOW.json', lists)
     return 0
