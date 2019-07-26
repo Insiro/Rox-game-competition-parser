@@ -17,7 +17,7 @@ def parse(link):
     req = requests.get(link)
     html = req.text
     soup = BeautifulSoup(html, 'html.parser')
-    heads = {'Organizer', 'Prize Pool', 'Prize', 'Region', 'Event Type',
+    heads = {'Organizer', 'Prize Pool', 'Region', 'Event Type',
              'Links', 'Streams', 'Schedule'  # , 'Sponsor(s)'
              }
     tag = '#infoboxTournament > tbody > tr > td'
