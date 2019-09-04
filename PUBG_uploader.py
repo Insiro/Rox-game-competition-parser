@@ -21,3 +21,7 @@ def upload():
             if tet.count() == 0:
                 print('inset new data')
                 collection.insert(data)
+
+
+if __name__ == "__main__":
+    upload()

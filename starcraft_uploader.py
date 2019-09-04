@@ -4,21 +4,21 @@ from pprint import pprint
 
 
 def upload():
-    filename = ['toornamentOW.json']
+    filename = ['wcs_starcraft.json']
     client = MongoClient()
     client = MongoClient('localhost')
     db = client['rox']
-    collection = db['OW']
+    collection = db['STARCRAFT']
     # number of find data :data.count()
     for fname in filename:
-        OW = open(fname, 'r').read()
-        Jdata = json.loads(OW)
+        st = open(fname, 'r').read()
+        Jdata = json.loads(st)
         for data in Jdata:
             name = data.get('name')
-            print(name)
             trig = {'name': name}
             tet = collection.find(trig)
             if tet.count() == 0:
+                print(name)
                 print('inset new data')
                 collection.insert(data)
 
