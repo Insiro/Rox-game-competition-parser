@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import checkStatus as CS
 import gamepedia_schedule_calander as GS
 
+# data copyright - ccl 3.0 by-sa
+
 
 def test():
     return parse('https://lol.gamepedia.com/Esports_Balkan_League/Season_5')
@@ -42,6 +44,8 @@ def parse(link):
                 data[temp] = list()
                 if block.a != None:
                     for a in block.select('a'):
+                        if a.text == 'Full List':
+                            continue
                         data[temp].append({'name': a.text, 'link': a['href']})
             elif temp == 'Schedule':
 

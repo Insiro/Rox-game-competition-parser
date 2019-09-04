@@ -7,6 +7,8 @@ import checkStatus as CS
 import pubg_esports_gamepedia_Extention as Ex
 import jsonout as JO
 
+# 저작권 ccl : by-nc-sa/ !!비영리
+
 
 def parse():
     year = str(datetime.today().year)

@@ -4,6 +4,9 @@ import jsonout as JO
 import checkStatus as CS
 import datetime
 
+# 저작권 요청 필요
+# 관련링크 https://www.toornament.com/en_US/legal
+
 
 def parse():
     hostname = 'https://www.toornament.com'
